@@ -12,9 +12,6 @@ export default function ContactSection({ year }: { year: number }) {
             <p>
                 Thanks for checking out our website. Please get in touch via the email below & we aim to respond swiftly, but first of all, be sure to check we cover what you need in our <Link href="#services" className="font-bold text-primary hover:underline">services section</Link>
             </p>
-            <p>
-                We sadly cannot provide individual demo or CV feedback
-            </p>
         </div>
 
         <a href="mailto:dreambig@dreamwithvision.com" className="font-headline text-2xl text-primary hover:underline mt-4">
