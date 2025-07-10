@@ -17,8 +17,8 @@ export default function ContactSection({ year }: { year: number }) {
             </p>
         </div>
 
-        <a href="mailto:studio@dreamwithvision.com" className="font-headline text-2xl text-primary hover:underline mt-4">
-            studio@dreamwithvision.com
+        <a href="mailto:dreambig@dreamwithvision.com" className="font-headline text-2xl text-primary hover:underline mt-4">
+            dreambig@dreamwithvision.com
         </a>
       </div>
       <footer className="mt-24 border-t border-border/20 pt-8 w-full max-w-7xl mx-auto">
