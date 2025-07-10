@@ -6,7 +6,7 @@ export default function ClientsSection() {
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col items-center justify-center gap-8 text-center">
             <h2 className="font-headline text-lg font-bold text-primary uppercase">CLIENTS...</h2>
-            <p className="font-body text-foreground/80 leading-relaxed">wouldn't you like to know</p>
+            <p className="font-body text-foreground/80 leading-relaxed italic">wouldn't you like to know</p>
         </div>
       </div>
     </SectionWrapper>
