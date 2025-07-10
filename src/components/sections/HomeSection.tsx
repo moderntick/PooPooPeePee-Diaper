@@ -5,8 +5,8 @@ export default function HomeSection() {
     <section id="home" className="relative min-h-screen w-full flex items-center justify-center text-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://placehold.co/1920x1080.png"
-          alt="Abstract background of soft light and textures"
+          src="https://i.imgur.com/sCigD3g.png"
+          alt="Abstract background"
           layout="fill"
           objectFit="cover"
           quality={80}
