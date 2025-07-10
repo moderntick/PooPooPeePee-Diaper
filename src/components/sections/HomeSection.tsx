@@ -7,8 +7,8 @@ export default function HomeSection() {
         <Image
           src="https://i.imgur.com/sCigD3g.png"
           alt="Abstract background"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
           quality={80}
           priority
           className="filter brightness-[.4]"
