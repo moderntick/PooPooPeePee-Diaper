@@ -49,21 +49,43 @@ export default function Header() {
       className={cn(
         "font-headline uppercase tracking-wider transition-colors hover:text-primary",
         activeSection === href.substring(1) ? "text-primary" : "text-foreground/80",
-        isMobile ? "py-4 text-2xl" : "text-sm"
+        isMobile ? "py-4 text-2xl" : "text-xs"
       )}
     >
       {children}
     </Link>
   );
-  
-  const DesktopNav = () => (
-      <nav className="hidden md:flex items-center space-x-8">
-        {navLinks.map(link => <NavLink key={link.href} href={link.href}>{link.name}</NavLink>)}
-      </nav>
+
+  const LogoLink = () => (
+    <Link href="#home" className="flex items-center gap-2 font-headline text-xl font-bold text-foreground mx-8 flex-shrink-0">
+        <Feather className="w-6 h-6 text-primary" />
+        Visionary Canvas
+    </Link>
   );
   
+  const DesktopNav = () => {
+      const middleIndex = Math.ceil(navLinks.length / 2);
+      const leftLinks = navLinks.slice(0, 2);
+      const rightLinks = navLinks.slice(2);
+      
+      return (
+          <nav className="hidden md:flex items-center justify-center flex-grow">
+            <div className="flex items-center justify-end space-x-8 w-1/3">
+              {leftLinks.map(link => <NavLink key={link.href} href={link.href}>{link.name}</NavLink>)}
+            </div>
+            <div className="flex-shrink-0 px-8">
+              <LogoLink />
+            </div>
+            <div className="flex items-center justify-start space-x-8 w-1/3">
+              {rightLinks.map(link => <NavLink key={link.href} href={link.href}>{link.name}</NavLink>)}
+            </div>
+          </nav>
+      )
+  };
+  
   const MobileNav = () => (
-    <div className="md:hidden">
+    <div className="md:hidden flex-1 flex justify-between items-center">
+        <LogoLink />
         <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -92,11 +114,7 @@ export default function Header() {
         isScrolled ? "bg-background/80 backdrop-blur-sm shadow-lg" : "bg-transparent"
     )}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          <Link href="#home" className="flex items-center gap-2 font-headline text-xl font-bold text-foreground">
-              <Feather className="w-6 h-6 text-primary" />
-              Visionary Canvas
-          </Link>
+        <div className="flex items-center justify-center h-20">
           <DesktopNav />
           <MobileNav />
         </div>
