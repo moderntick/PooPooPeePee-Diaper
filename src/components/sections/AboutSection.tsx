@@ -15,32 +15,6 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="w-full mt-2">
-          <h3 className="font-headline text-base font-bold text-primary mb-4 uppercase">What We Do</h3>
-          <div className="space-y-3 text-center">
-              <div>
-                <h4 className="font-headline text-sm font-semibold text-accent">Creative Direction</h4>
-                <p className="font-body text-[10px] text-foreground/80 max-w-md mx-auto">Visual storytelling for fashion brands, musicians, and artists—from concept to set design and styling.</p>
-              </div>
-              <div>
-                <h4 className="font-headline text-sm font-semibold text-accent">Fashion Product Development</h4>
-                <p className="font-body text-[10px] text-foreground/80 max-w-md mx-auto">From sketch to sample, we guide apparel and accessory brands through every stage of development.</p>
-              </div>
-              <div>
-                <h4 className="font-headline text-sm font-semibold text-accent">Brand Consulting & Strategy</h4>
-                <p className="font-body text-[10px] text-foreground/80 max-w-md mx-auto">We help shape unique brand voices and build cohesive narratives that resonate and convert.</p>
-              </div>
-               <div>
-                <h4 className="font-headline text-sm font-semibold text-accent">Artist & Talent Management</h4>
-                <p className="font-body text-[10px] text-foreground/80 max-w-md mx-auto">Supporting emerging music artists with branding, bookings, image development, and more.</p>
-              </div>
-              <div>
-                <h4 className="font-headline text-sm font-semibold text-accent">Experiential Events & Activations</h4>
-                <p className="font-body text-[10px] text-foreground/80 max-w-md mx-auto">We produce curated experiences and pop-ups that connect creators with communities.</p>
-              </div>
-          </div>
-        </div>
-
         <div className="w-full mt-4">
             <p className="font-body text-xs text-foreground/80 leading-relaxed max-w-2xl mx-auto italic">
             We believe vision without execution is just a dream. That’s why we build with intention—honoring history, pushing boundaries, and creating work that moves culture forward. Whether you're a brand, an artist, or a creator—if you're dreaming big, we’re here to help you build it.
