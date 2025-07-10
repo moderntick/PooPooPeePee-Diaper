@@ -14,12 +14,9 @@ const navLinks = [
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState('home');
-  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-
       const sections = navLinks.map(link => {
         const el = document.getElementById(link.href.substring(1));
         return el;
@@ -59,10 +56,7 @@ export default function Header() {
   );
   
   return (
-    <header className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled ? "bg-background/80 backdrop-blur-sm shadow-lg" : "bg-transparent"
-    )}>
+    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background/80 backdrop-blur-sm shadow-lg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-8">
            <nav className="flex items-center justify-center space-x-8">
