@@ -20,7 +20,10 @@ export default function Header() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = navLinks.map(link => document.getElementById(link.href.substring(1)));
+      const sections = navLinks.map(link => {
+        const el = document.getElementById(link.href.substring(1));
+        return el;
+      });
       const scrollPosition = window.scrollY + window.innerHeight / 3;
 
       for (const section of sections) {
@@ -56,7 +59,7 @@ export default function Header() {
         isScrolled ? "bg-background/80 backdrop-blur-sm shadow-lg" : "bg-transparent"
     )}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center h-16">
+        <div className="flex items-center justify-center h-8">
            <nav className="flex items-center justify-center space-x-8">
               {navLinks.map(link => <NavLink key={link.href} href={link.href}>{link.name}</NavLink>)}
            </nav>
