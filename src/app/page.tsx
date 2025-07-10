@@ -6,7 +6,6 @@ import ServicesSection from '@/components/sections/ServicesSection';
 import ContactSection from '@/components/sections/ContactSection';
 
 export default function Home() {
-  const currentYear = new Date().getFullYear();
   
   return (
     <>
@@ -16,7 +15,7 @@ export default function Home() {
         <AboutSection />
         <ClientsSection />
         <ServicesSection />
-        <ContactSection year={currentYear} />
+        <ContactSection year={new Date().getFullYear()} />
       </main>
     </>
   );
