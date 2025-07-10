@@ -11,7 +11,6 @@ export default function HomeSection() {
           style={{ objectFit: 'cover' }}
           quality={80}
           priority
-          className="filter brightness-[.4]"
           data-ai-hint="portrait person"
         />
       </div>
