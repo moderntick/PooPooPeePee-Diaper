@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <SectionWrapper id="about">
       <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-8">
-        <h2 className="font-headline text-lg sm:text-xl md:text-2xl font-bold text-primary uppercase">Let's dream together..</h2>
+        <h2 className="font-headline text-lg sm:text-xl md:text-2xl font-bold text-primary uppercase">Let's dream together...</h2>
         
         <div className="space-y-2">
           <p className="font-body text-sm sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
