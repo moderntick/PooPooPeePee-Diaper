@@ -29,11 +29,11 @@ export default function ServicesSection() {
   return (
     <SectionWrapper id="services">
       <div className="max-w-3xl mx-auto text-center mb-12 space-y-4">
-        <p className="font-headline text-base sm:text-xl md:text-2xl font-bold text-primary uppercase">SERVICES</p>
-        <p className="font-body text-sm sm:text-xl md:text-2xl text-foreground/80 leading-relaxed">
+        <p className="font-headline text-lg sm:text-xl md:text-2xl font-bold text-primary uppercase">SERVICES</p>
+        <p className="font-body text-base sm:text-xl md:text-2xl text-foreground/80 leading-relaxed">
           We provide a range of services which we've listed here, but the best thing to do is get in touch with us so we can customise a plan to your individual needs & budget.
         </p>
-        <p className="font-body text-sm sm:text-xl md:text-2xl text-foreground/80 leading-relaxed">
+        <p className="font-body text-base sm:text-xl md:text-2xl text-foreground/80 leading-relaxed">
           Before you reach out please check the service you require is listed.
         </p>
       </div>
@@ -42,9 +42,9 @@ export default function ServicesSection() {
           <Link key={service.title} href="#contact">
             <Card className="bg-card border-foreground/20 text-center flex flex-col items-center p-8 h-full transition-all duration-300 hover:border-primary hover:shadow-primary/10 hover:shadow-lg hover:-translate-y-2">
               <CardHeader className="p-0">
-                <CardTitle className="font-headline text-xl sm:text-3xl md:text-4xl text-foreground">{service.title}</CardTitle>
+                <CardTitle className="font-headline text-2xl sm:text-3xl md:text-4xl text-foreground">{service.title}</CardTitle>
               </CardHeader>
-              <CardDescription className="mt-4 font-body text-sm text-muted-foreground">
+              <CardDescription className="mt-4 font-body text-base text-muted-foreground">
                 {service.description}
               </CardDescription>
             </Card>
