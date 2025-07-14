@@ -29,7 +29,7 @@ export default function ServicesSection() {
   return (
     <SectionWrapper id="services">
       <div className="max-w-3xl mx-auto text-center mb-12 space-y-4">
-        <p className="font-headline text-lg sm:text-xl md:text-2xl font-bold text-primary uppercase">SERVICES</p>
+        <p className="font-headline text-xl sm:text-2xl md:text-4xl font-bold text-primary uppercase">SERVICES</p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {services.map((service) => (
