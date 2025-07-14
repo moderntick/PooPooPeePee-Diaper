@@ -30,12 +30,6 @@ export default function ServicesSection() {
     <SectionWrapper id="services">
       <div className="max-w-3xl mx-auto text-center mb-12 space-y-4">
         <p className="font-headline text-lg sm:text-xl md:text-2xl font-bold text-primary uppercase">SERVICES</p>
-        <p className="font-body text-base sm:text-xl md:text-2xl text-foreground/80 leading-relaxed">
-          We provide a range of services which we've listed here, but the best thing to do is get in touch with us so we can customise a plan to your individual needs & budget.
-        </p>
-        <p className="font-body text-base sm:text-xl md:text-2xl text-foreground/80 leading-relaxed">
-          Before you reach out please check the service you require is listed.
-        </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {services.map((service) => (

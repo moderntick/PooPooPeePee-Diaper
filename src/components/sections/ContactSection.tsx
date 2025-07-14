@@ -8,12 +8,6 @@ export default function ContactSection({ year }: { year: number }) {
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-8">
         <h2 className="font-headline text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground tracking-widest uppercase">GET IN TOUCH...</h2>
         
-        <div className="space-y-4 font-code text-base sm:text-xl md:text-2xl text-foreground/80 leading-relaxed max-w-2xl">
-            <p>
-                Thanks for checking out our website. Please get in touch via the email below & we aim to respond swiftly, but first of all, be sure to check we cover what you need in our <Link href="#services" className="font-bold text-primary hover:underline">services section</Link>
-            </p>
-        </div>
-
         <a href="mailto:dreambig@dreamwithvision.com" className="font-headline text-2xl sm:text-3xl md:text-4xl text-primary hover:underline mt-4">
             dreambig@dreamwithvision.com
         </a>
