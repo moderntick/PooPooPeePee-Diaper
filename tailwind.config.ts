@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['"PT Sans"', 'sans-serif'],
-        headline: ['"Playfair Display"', 'serif'],
+        body: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        headline: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
         code: ['"Courier New"', 'monospace'],
       },
       colors: {
