@@ -7,7 +7,7 @@ export default function HomeSection() {
         {/* Default Image (Mobile) */}
         <div className="block sm:hidden w-full h-full">
             <Image
-                src="https://i.imgur.com/bWZd4Nu.jpeg"
+                src="https://i.imgur.com/UTBFkD4.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -46,7 +46,7 @@ export default function HomeSection() {
         {/* lg */}
         <div className="hidden lg:block xl:hidden w-full h-full">
             <Image
-                src="https://i.imgur.com/bWZd4Nu.jpeg"
+                src="https://i.imgur.com/zsb9sfh.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -59,7 +59,7 @@ export default function HomeSection() {
         {/* xl */}
         <div className="hidden xl:block 2xl:hidden w-full h-full">
             <Image
-                src="https://i.imgur.com/bWZd4Nu.jpeg"
+                src="https://i.imgur.com/zsb9sfh.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
