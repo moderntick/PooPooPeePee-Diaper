@@ -13,7 +13,7 @@ export default function ContactSection({ year }: { year: number }) {
         </a>
       </div>
       <footer className="mt-24 border-t border-border/20 pt-8 w-full max-w-7xl mx-auto">
-        <p className="text-muted-foreground text-sm sm:text-lg md:text-xl">&copy; {year} Dream With Vision. All Rights Reserved.</p>
+        <p className="text-muted-foreground text-sm sm:text-lg md:text-xl">&copy; {year} Dream With Vision. All Rights Reserved. Website built by Applequist Inc.</p>
       </footer>
     </SectionWrapper>
   );
