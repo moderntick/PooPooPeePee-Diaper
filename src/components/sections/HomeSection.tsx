@@ -20,7 +20,7 @@ export default function HomeSection() {
         {/* sm */}
         <div className="hidden sm:block md:hidden w-full h-full">
             <Image
-                src="https://placehold.co/768x1024.png"
+                src="https://i.imgur.com/bWZd4Nu.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -33,7 +33,7 @@ export default function HomeSection() {
         {/* md */}
         <div className="hidden md:block lg:hidden w-full h-full">
             <Image
-                src="https://placehold.co/1024x768.png"
+                src="https://i.imgur.com/bWZd4Nu.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -46,7 +46,7 @@ export default function HomeSection() {
         {/* lg */}
         <div className="hidden lg:block xl:hidden w-full h-full">
             <Image
-                src="https://placehold.co/1280x720.png"
+                src="https://i.imgur.com/bWZd4Nu.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -59,7 +59,7 @@ export default function HomeSection() {
         {/* xl */}
         <div className="hidden xl:block 2xl:hidden w-full h-full">
             <Image
-                src="https://placehold.co/1536x864.png"
+                src="https://i.imgur.com/bWZd4Nu.jpeg"
                 alt="Portrait of the founder"
                 fill
                 style={{ objectFit: 'cover' }}
