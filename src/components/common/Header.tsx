@@ -46,7 +46,7 @@ export default function Header() {
     <Link
       href={href}
       className={cn(
-        "font-headline uppercase tracking-wider transition-colors hover:text-primary text-[10px]",
+        "font-headline uppercase tracking-wider transition-colors hover:text-primary text-[10px] sm:text-xs",
         activeSection === href.substring(1) ? "text-primary" : "text-foreground/80",
         isLogo && "font-bold whitespace-nowrap"
       )}
